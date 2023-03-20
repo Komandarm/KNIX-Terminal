@@ -17,7 +17,7 @@ while True:
 	if usr_inp == "now":
 		print(f"Time: {now}")
 	elif usr_inp == "cpm":
-		file_inst = input("Addres to file: ") # Example https://mystat.itstep.org/assets/images/load.png?v=d39044f047d65d2db1f0e24fc47f5e6a
+		file_inst = input("Addres to file: ")
 		wget.download(file_inst)
 	elif usr_inp == "cd":
 		dir_cd = input("Enter dir: ")
